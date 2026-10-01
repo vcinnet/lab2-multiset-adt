@@ -136,7 +136,6 @@ class BST:
 
     def delete(self, item: int) -> None:
         """Remove *one* occurrence of <item> from this BST.
-
         Do nothing if <item> is not in the BST.
         """
         if self.is_empty():
